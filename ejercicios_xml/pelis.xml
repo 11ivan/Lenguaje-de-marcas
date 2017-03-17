@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<peliculas>
+	<peli nombre="Iron Man"/>
+		
+		<protagonista>Robert Downey Jr.</protagonista>
+		<director>Jon Favreau</director>
+		<ano>2008</ano>
+	</peli>
+	
+	<peli nombre="Avatar"/>
+		<protagonista>Sam Worthington</protagonista>
+		<director>James Cameron</director>
+		<ano>2009</ano>
+	</peli>
+	
+	<peli nombre="Transformers"/>
+		<protagonista>Shia LaBeouf</protagonista>
+		<director>Michael Bay</director>
+		<ano>2007</ano>
+	</peli>
+	
+</peliculas>
+	
+

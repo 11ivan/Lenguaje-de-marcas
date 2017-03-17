@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+	<empresa>Endesa</empresa>
+	<datos_cliente>
+		<electricidad>	
+			<titular>Paco Mer</titular>
+			<dni_nif>75321945-T</dni_nif>
+			<direccion id="1">Avenida de la Paz 870 Sevilla</direccion>
+			<cnae>9820</cnae>
+			<cups>ES4512354632153562GDDR</cups>
+			<potencia_contratada>3,3 kW</potencia_contratada>
+			<contrato_acceso tarifa_acceso="2.0A">3246574866</contrato_acceso>
+			<numero_contador>153794</numero_contador>
+		</electricidad>
+		<nombre>Paco Mer</nombre>
+		<direccion id="2">Avenida de la Paz 870</direccion>
+		<cod_postal>41013</cod_postal>
+		<localidad provincia="Sevilla">Sevilla</localidad>
+	</datos_cliente>
+	
+	<resumen_factura>
+		<fecha>13 de Noviembre de 2013</fecha>
+		<periodo>del 12/09/2013 al 12/11/2013</periodo>
+		<numero>SBC30545645</numero>
+		<referencia>1054894531 7561</referencia>
+		<total_factura id="1">96,93</total_factura>
+	</resumen_factura>
+
+	<consumo_electrico>
+		<lectura_real fecha="12/11/2013">15945</lectura_real>
+		<lectura_real fecha="12/09/2013">15515</lectura_real>
+		<consumo_medio>15945 - 15515 = 430</consumo_medio>
+		<consumo_total>430 kWh</consumo_total>
+	</consumo_electrico>
+		
+	<facturacion>
+		<producto>TARIFA DE ÚLTIMO CONSUMO</producto>
+		<conceptos>
+			<concepto id="1">Facturacion del consumo</concepto>
+			<concepto id="2">Potencia</concepto>
+			<concepto id="3">Impto. Electricidad</concepto>
+			<concepto id="4">Alquiler de equipos electr.</concepto>
+		</conceptos>
+
+		<calculos>
+			<calculo id="1">430KWH x 0,12886 EUR/KWH</calculo>
+			<calculo id="2">3,3 KW x 61 x 0,09767 EUR/KW Y DIA</calculo>
+			<calculo id="3">75,07 EUR x 1,05113 x 4,864 %</calculo>
+			<calculo id="4">Subtotal</calculo>
+			<calculo id="5">IVA Normal 21 % de 80,11</calculo>
+		</calculos>
+		
+		<importes moneda="€">
+			<importe id="1">55,41 (01)</importe>		
+			<importe id="2">19</importe>		
+			<importe id="3">3,84</importe>		
+			<importe id="4">1,20</importe>		
+			<importe id="5">80,11</importe>	
+			<importe id="6">16,82</importe>	
+		</importes>
+		
+		<total_factura id="2">96,93</total_factura>
+	</facturacion>
+	
+	<informacion_producto>
+		<parrafo id="1">
+			<linea id="1">Las condiciones econónimas de este contrato en tarifa de último</linea>
+			<linea id="2">recurso (TUR) se fijan reglamentariamente por la Dirección General</linea>
+			<linea id="3">de Política Energética y Minas.</linea>
+		</parrafo>
+		<parrafo id="2">
+			<linea id="4">Los precios a aplicar, a partir del 1 de Abril se han publicado en el</linea>
+			<linea id="5">BOE 76 de 29/03/2013</linea>
+		</parrafo>
+		
+		<parrafo id="3">
+			<linea id="6">Recuerde puede contratar con otras condiciones en mercado libre.</linea>
+			<linea id="7">Para más información puede llamar al servicio de atención al cliente</linea>
+			<linea id="8">o consultar nuestra web.</linea>
+		</parrafo>
+	</informacion_producto>	
+		
+	<datos_pago>
+		<caja_banco>0075BANCO POPULAR ESPAÑOL)</caja_banco>
+		<sucursal>3066</sucursal>
+		<dc>11</dc>
+		<cuenta_corriente>07006*****</cuenta_corriente>
+		<importe id="7">96,93</importe>
+		<parrafo id="4">
+			<linea id="9">EL importe de esta factura le será cargado en su cuenta a partir del</linea>
+			<linea id="10">20/11/2013</linea>
+			<linea id="11">Su pago se justifica con el correspondiente apunte bancario.</linea>
+		</parrafo>
+	</datos_pago>
+
+	<informacion_facturacion>
+		<termino_potencia>
+			<periodos>
+				<periodo id="1">P1</periodo>
+				<periodo id="2">Total</periodo>			
+			</periodos>
+			<potencia>3,300 kW/mes.</potencia>
+			<precio_rd id="1">0,086710</precio_rd>
+			<importes>
+				<importe id="7">17,45</importe>
+				<importe id="8">17,45</importe>
+			</importes>
+		</termino_potencia>
+		
+		<termino_energia>
+			<consumo>430</consumo>
+			<precio_rd id="2">0,053255</precio_rd>
+			<importes>
+				<importe id="8">22,90</importe>
+				<importe id="9">22,90</importe>
+			</importes>
+		</termino_energia>
+		<linea id="12">Orden IET/1491/2013 (BOE 03-08-2013)</linea>
+	</informacion_facturacion>
+		
+</factura>

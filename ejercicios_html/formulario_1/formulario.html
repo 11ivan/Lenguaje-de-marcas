@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulario</title>
+</head>
+<body>
+	<form name="formulario1" action="http://leo.ciclo.iesnervion.es/muestraDatos.php" method="post">
+	<fieldset>
+	<legend><strong>Información personal</strong></legend>
+	Ingrese su email:<br>
+	<input type="text" name="email" size="20" value="gmail.com"><br><br>
+	Ingrese su clave:<br>
+	<input type="password" name="clave" size="15"><br><br>
+	Confirme su clave:<br>
+	<input type="password" name="confirmar clave" size="15"><br><br>
+	Idiomas:<br>
+	<input type="checkbox" name="Inglés" checked>Inglés<br>
+	<input type="checkbox" name="Francés">Francés<br>
+	<input type="checkbox" name="Italiano">Italiano<br>
+	<input type="checkbox" name="Portugués" disabled>Portugués<br><br>
+	</fieldset><br>
+	<fieldset>
+	<legend><strong>Datos de interés</strong></legend>
+	Seleccione sistema operativo favorito:<br>
+	<input type="radio" name="SO" value="1">Linux<br>
+	<input type="radio" name="SO" value="2">Windows<br>
+	<input type="radio" name="SO" value="3">MAC<br><br>
+	Tienda online favorita:<br>
+	<input type="radio" name="tienda" value="1" checked>Pccomponentes<br>
+	<input type="radio" name="tienda" value="2" disabled>Tinydeal<br>
+	<input type="radio" name="tienda" value="3">Amazon<br><br>
+	Valora la dificultad del ciclo:<br>
+	<select name="dificultad">
+	<option value="1" selected>Fácil</option>
+	<option value="2">Normal</option>
+	<option value="3" >Difícil</option>
+	<option value="4" disabled>Muy difícil</option>
+	</select><br><br>
+	Indique componentes sobre los que quiere información:<br>
+	<select name="componentes[]" size="10" multiple>
+	<optgroup label="Componentes">
+	<option value="1">RAM</option>
+	<option value="2">Tarjeta gráfica</option>
+	<option value="3">Disco duro</option>
+	<option value="4">Procesador</option>
+	</optgroup>
+	<optgroup label="Periféricos">
+	<option value="1">Ratón</option>
+	<option value="2">Teclado</option>
+	<option value="3">Monitor</option>
+	<option value="4">Impresora</option>
+	</optgroup><br>
+	</select><br><br>
+	</fieldset>
+	<fieldset>
+	<legend><strong>Datos de curriculares</strong></legend>
+	Curriculum:<br><br>
+	Seleccione la foto:<br>
+	<input type="file" name="foto"><br><br>
+	<textarea name="Comentarios" rows="20" cols="80"></textarea><br>
+	<button type="submit"><img src="enviar.png" alt="enviar"></button>
+	<button type="reset"><img src="refresh.png" alt="borrado"></button>
+	</fieldset>
+</form>
+</body>
+</html>

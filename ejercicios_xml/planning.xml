@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planning_semana>
+	<lunes>
+		<mañana>
+			<actividad intervalo="8:15 - 14:45">Clases</actividad>
+		</mañana>
+		
+		<tarde>
+			<actividad intervalo="16:00 - 17:00">almuerzo</actividad>
+			<actividad intervalo="17:00 - 18:00">Tiempo de ocio</actividad>
+			<actividad intervalo="18:00 - 21:00">Tareas de clase</actividad>
+		</tarde>
+		
+		<noche>
+			<actividad intervalo="21:00 - 22:00">Cena</actividad>
+			<actividad intervalo="22:00 - 00:00">Tiempo de ocio</actividad>
+		</noche>
+	</lunes>
+	
+	<martes>
+		<mañana>
+			<actividad intervalo="8:15 - 14:45">Clases</actividad>
+		</mañana>
+		
+		<tarde>
+			<actividad intervalo="16:00 - 17:00">almuerzo</actividad>
+			<actividad intervalo="17:00 - 18:00">Tiempo de ocio</actividad>
+			<actividad intervalo="18:00 - 21:00">Tareas de clase</actividad>
+		</tarde>
+		
+		<noche>
+			<actividad intervalo="21:00 - 22:00">Cena</actividad>
+			<actividad intervalo="22:00 - 00:00">Tiempo de ocio</actividad>
+		</noche>
+	</martes>
+
+	<miercoles>
+		<mañana>
+			<actividad intervalo="8:15 - 14:45">Clases</actividad>
+		</mañana>
+		
+		<tarde>
+			<actividad intervalo="16:00 - 17:00">almuerzo</actividad>
+			<actividad intervalo="17:00 - 18:00">Tiempo de ocio</actividad>
+			<actividad intervalo="18:00 - 21:00">Tareas de clase</actividad>
+		</tarde>
+		
+		<noche>
+			<actividad intervalo="21:00 - 22:00">Cena</actividad>
+			<actividad intervalo="22:00 - 00:00">Tiempo de ocio</actividad>
+		</noche>
+	</miercoles>
+	
+	<jueves>
+		<mañana>
+			<actividad intervalo="8:15 - 14:45">Clases</actividad>
+		</mañana>
+		
+		<tarde>
+			<actividad intervalo="16:00 - 17:00">almuerzo</actividad>
+			<actividad intervalo="17:00 - 18:00">Tiempo de ocio</actividad>
+			<actividad intervalo="18:00 - 21:00">Tareas de clase</actividad>
+		</tarde>
+		
+		<noche>
+			<actividad intervalo="21:00 - 22:00">Cena</actividad>
+			<actividad intervalo="22:00 - 00:00">Tiempo de ocio</actividad>
+		</noche>
+	</jueves>
+	
+	<viernes>
+		<mañana>
+			<actividad intervalo="8:15 - 14:45">Clases</actividad>
+		</mañana>
+		
+		<tarde>
+			<actividad intervalo="16:00 - 17:00">almuerzo</actividad>
+			<actividad intervalo="17:00 - 20:00">Tareas de clase</actividad>
+		</tarde>
+		
+		<noche>
+			<actividad intervalo="20:00 - 22:00">Tiempo de ocio</actividad>
+			<actividad intervalo="22:00 - 23:30">Cena</actividad>
+			<actividad intervalo="23:30 - indefinido">Tiempo de ocio</actividad>
+		</noche>
+	</viernes>
+	
+</planning_semana>

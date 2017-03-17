@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Ejercicio 4
+Una academia de idiomas ofrece cursos. Cada curso se caracteriza por los siguientes datos:
+·         Idioma
+·         Nivel
+·         Fecha inicio
+·         Duración (semanas)
+·         Público objetivo (niños, adultos, trabajadores, etc)
+·         Nivel requerido
+·         Precio
+·         Sesiones por semana
+·         Duración de las sesiones (minutos) -->
+
+<Academia nombre="LearnObjects">
+	<Idioma segundoIdioma="Ingles">Español</Idioma>
+	<Nivel requerido="1">3</Nivel>
+	<FechaInicio>10/1/2017</FechaInicio>
+	<Duracion>4000 horas</Duracion>
+	<PublicoObjetivo>Adultos</PublicoObjetivo>
+	<Precio>500 €</Precio>
+	<SeionesxSemana>4</SeionesxSemana>
+	<DuracionSesion>4 horas</DuracionSesion>
+</Academia> 

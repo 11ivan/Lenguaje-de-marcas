@@ -1,0 +1,55 @@
+#contenidohorario{
+	opacity: 0.8;
+	position:absolute;
+	min-width:730px;
+	left:25%;
+	top:25%;
+	background-color:white;
+	padding-right:30px;
+	padding-left:30px;
+	min-height:100%;
+	padding-top:30px;}
+	
+#endes{
+  background-color:navajowhite;
+  text-align:center;
+  color:black;
+}
+#lm{
+  background-color:#5099B5;
+  text-align:center;
+  color:black;
+}
+#prog{
+  background-color:#21A21A;
+  text-align:center;
+  color:black;
+}
+#bd{
+  background-color:#E9FA69;
+  text-align:center;
+  color:black;
+}
+#si{
+  background-color:#B682D0;
+  text-align:center;
+  color:black;
+}
+#fol{
+  background-color:pink;
+  text-align:center;
+  color:black;
+}
+td{
+
+width:100px;
+height:20px;
+border-collapse:2px;
+border-color:black;
+}
+th { background-color: lightblue;
+	color: red;
+	text-align:center;
+	width:100px;
+	height:20px;
+	}

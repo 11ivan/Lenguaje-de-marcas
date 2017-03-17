@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!--<meta charset="utf-8">-->
+	<title>Formulario</title>
+	<link rel="StyleSheet" href="form2.css" type="text/css">
+	</head>
+	<body>
+		<div id="contenidoform">
+			<h2>
+			Reserve su habitación.
+			</h2>
+			
+				<form id="form" "name="Formulario2" action="action_page.php" method="post">
+					
+					<input type="hidden" value="10:20" name="hora">
+					
+				<fieldset><legend>Datos personales</legend>
+					<label for="nombre">Nombre:</label>&nbsp;&nbsp;
+					<input type="text" name="nombre" size="15" maxlength="20" id="nombre" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					
+					<label for="apellido">Apellido:</label>&nbsp;&nbsp;
+					<input type="text" name="apellido" size="15" maxlength="20" id="apellido"><br><br>
+					
+					Contraseña:&nbsp;&nbsp;
+					<input type="password" name="contraseña" size="15"><br><br>
+					
+					Teléfono:&nbsp;&nbsp;
+					<input type="tel" name="telefono" size="9" maxlength="9"><br><br>
+
+					Correo electrónico:&nbsp;&nbsp;
+					<input type="email" name="correo" size="25"><br>
+				</fieldset>
+				
+				
+				<fieldset><legend>Categoría</legend>
+					<label for="categoria">Elija la categoría que desee</label>
+					<select name="categoria">
+						<option value="1">1 Estrella</option>
+						<option value="2">2 Estrellas</option>
+						<option value="3">3 Estrellas</option>
+						<option value="4">4 Estrellas</option>
+						<option value="5">5 Estrellas</option>
+					</select>
+				</fieldset>
+				
+				
+				<fieldset><legend>Habitación</legend>
+					<!--Busque el hotel que quiera:
+					<input type="search" name="googlesearch"><br>-->
+					<label for="Numero habitaciones">Número de habitaciones:</label>
+					<input type="number" name="habitaciones" id="numero habitaciones" size="10"><br>
+					
+					<label for="estado civil">Estado civil:</label><br>
+					<label for="estado">Casad@</label>&nbsp;<input type="radio" name="estado" value="1" id="estado"><br>
+					<label for="estado1">Solter@</label>&nbsp;<input type="radio" name="estado" value="2" id="estado1"><br>
+				</fieldset>
+				
+				
+				
+				<fieldset><legend>Fecha de reserva</legend>
+					<label for="fecha inicio">Fecha de entrada:</label>&nbsp;&nbsp;
+					<input type="date" min="2016-10-20" max="2016-12-31" name="fecha inicio" size="10" id="fecha inicio"><br>
+					
+					<label for="fecha fin">Fecha de salida:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="date" min="2016-10-21" max="2016-12-31" name="fecha de salida" size="10" id="fecha fin"><br><br>
+				</fieldset>
+				
+				<fieldset><legend>Servicios</legend>
+					<label for="servicio">Elija qué servicios quiere:</label><br>
+					<input type="checkbox" name="servicio" id="piscina"><label for="piscina">Piscina</label>&nbsp;&nbsp;&nbsp;
+					<input type="checkbox" name="servicio" id="gimnasio"><label for="gimnasio">Gimnasio</label>&nbsp;&nbsp;&nbsp;
+				
+
+				</fieldset>
+				
+
+				<input   type="submit" value="Reservar">
+				<input   type="reset" value="Borrar">
+				<input class="acepte" type="checkbox" name="Acepte" required>Acepto las condiciones<br><br>
+
+				</form>
+		</div>	
+			
+	</body>	
+</html>

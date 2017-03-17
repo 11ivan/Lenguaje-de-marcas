@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Formulario</title>
+	<link rel="StyleSheet" href="web.css" type="text/css">
+	<link rel="StyleSheet" href="fonts.css">
+			<nav>
+				<ul>
+					<li><a href="pag_principal.html"><span class="primero"><i class="icon icon-home"></i></span>Inicio</a></li>
+					<li><a href="productos.html"><span class="segundo"><i class="icon icon-arrow-up"></i></span>Productos</a>
+						<ul>
+							<li><a href="#">Perifericos</a></li>
+							<li><a href="#">Almacenamiento</a></li>
+							<li><a href="#">Procesadores</a></li>
+						</ul>
+					</li>	
+					<li><a href="form.html"><span class="tercero"><i class="icon icon-file-text"></i></span>Formulario</a></li>
+					<li><a href="condiciones.html"><span class="cuarto"><i class="icon "></i></span>Condiciones de uso</a></li>
+				</ul>
+			</nav>
+	</head>
+	
+	<body id="bodyform">
+		<div id="idioma">
+			<!-- <a href="form.html" class="p1"><img src="espanol.png" alt="español"></a> -->
+			<a href="forming.html" class="p1"><img src="ingles.png" alt="ingles"></a>
+		</div>
+		<div id="capaform">
+		
+			<h1>Regístrese para recibir información de nuestras ofertas</h1><br>
+			
+			<form id="" "name="Formulario" action="action_page.php" method="post">
+			
+				<fieldset><legend>Datos personales</legend>
+					<label for="Nombre" class="nombre">Nombre</label>
+					<input type="name" id="Nombre" name="nombre" size="15"><br><br>
+					
+					<label for="correo">Correo electrónico</label>
+					<input type="email" id="correo" name="email" size="25" required><br><br>
+					
+					<label for="contraseña">Contraseña</label>
+					<input type="password" id="contraseña" name="contraseña"><br><br>
+					
+					<label for="confirme">Confirme la contraseña</label>
+					<input type="password" id="confirme" name="confirme" size="12"><br><br>
+				</fieldset>
+				
+				<fieldset><legend>Datos de interés</legend>		
+					<label>Sobre qué productos quiere recibir información</label><br><br>
+					&nbsp;&nbsp;<label for="Perifericos">Periféricos</label>&nbsp;<input type="checkbox" id="Perifericos" name="perifericos">
+					
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<label for="Almacenamiento">Almacenamiento</label>&nbsp;<input type="checkbox" id="Almacenamiento" name="almacenamiento">
+					
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<label for="Procesadores">Procesadores</label>&nbsp;<input type="checkbox" id="Procesadores" name="procesadores" checked><br><br><br>
+					
+					<label>Qué procesador prefiere</label><br><br>
+					<input type="radio" name="procesador" id="Intel" value="1" checked>&nbsp;<label for="Intel">Intel</label>
+					
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="procesador" id="AMD" value="2">&nbsp;<label for="AMD">AMD</label><br><br>
+					
+					<label for="fecha">Elija la fecha de preferencia para recibir información</label>
+					<input type="date" id="fecha" name="fecha">
+					
+				</fieldset>
+				
+				<fieldset><legend>Danos tu opinión</legend>
+					<label>Qué te parece nuestra página</label>&nbsp;&nbsp;
+					<select name="opinion">
+						<option value="1" namw="muy mala" disabled>Muy mala</option>
+						<option value="2" name="mala">Mala</option>
+						<option value="3" name="Regular">Regular</option>
+						<option value="4" name="Buena" selected>Buena</option>
+						<option value="5" name="muy buena">Muy buena</option>
+					</select>	<br><br>
+					
+					<label>Danos un breve comentario</label><br><br>
+					<textarea name="comentario" rows="8" cols="30"></textarea>
+				 
+				 </fieldset>
+				 
+				<input type="submit" name="Enviar">
+				<input type="reset" name="Borrar" value="Borrar todo">
+				<input class="acepte" id="acepte" type="checkbox" name="Acepte" required><label for="acepte">He leído y acepto la
+				<a href="https://www.agpd.es/portalwebAGPD/privacidad_aviso_legal-ides-idphp.php" target="_blank">política de la LOPD</a></label>
+			</form>
+		
+		</div>
+	</body>
+</html>

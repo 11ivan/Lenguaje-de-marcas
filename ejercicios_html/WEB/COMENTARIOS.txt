@@ -1,0 +1,10 @@
+/**La página principal y la de productos se descuadran dependiendo de la resolución de la pantalla,
+*  está ajustado a la resolución de las pantallas de clase.
+*/
+
+//El submenú de productos no enlaza a ninguna página, sólo esta hecho para demostrar la escalabilidad de la página web.
+
+/**En la página de productos en vez de crear una tabla los e tomado como capas diferentes.
+*  Tampoco e añadido más productos porque era el mismo proceso pero con productos diferentes.
+*
+*/

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<receta tipo="Médica"/>
+	<medico>Manolo</medico>
+		<n_colegiado>25789632</n_colegiado>
+	<fecha>12/5/2016</fecha>
+		<medicamento nombre="Paracetamol"/>
+			<marca>Bayer</marca>
+			<presentacion>20 sobres de 500mg</presentacion>
+		</medicamento>
+	<alternativos>
+		<lista>
+			<li>Eferalgan</li> 
+			<li>Frenadol</li> 
+			<li>Espidifen</li>
+		</lista>
+	</alternativos>
+</receta>
