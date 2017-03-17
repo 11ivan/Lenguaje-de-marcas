@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carta_desayuno>
+	<desayuno nombre="Gofres Belgas">
+		<precio id="1">5.95€</precio>
+		<descripcion id="1">Dos de nuestros famosos gofres belgas con abundante sirope</descripcion>
+		<calorias id="1">650</calorias>
+	</desayuno>
+	
+	<desayuno nombre="Gofres Belgas con fresas">
+		<precio id="2">7.95€</precio>
+		<descripcion id="2">Ligeros gofres belgas cubiertos de fresas y nata montada</descripcion>
+		<calorias id="2">900</calorias>
+	</desayuno>
+	
+	<desayuno nombre="Gofres Belgas con frutas del bosque">
+		<precio id="3">8.95€</precio>
+		<descripcion id="3">Ligeros gofres belgas cubiertos de frutas del bosque y nata montada</descripcion>
+		<calorias id="3">900</calorias>
+	</desayuno>
+	
+	<desayuno nombre="Tostada Francesa">
+		<precio id="4">4.50€</precio>
+		<descripcion id="4">Dos gruesas rebanadas de nuestro pan francés casero</descripcion>
+		<calorias id="4">600</calorias>
+	</desayuno>
+	
+	<desayuno nombre="Desayuno de la casa">
+		<precio id="5">6.95€</precio>
+		<descripcion id="5">Dos huevos beicon o salchicha, tostada y patatas fritas</descripcion>
+		<calorias id="5">950</calorias>
+	</desayuno>
+</carta_desayuno>

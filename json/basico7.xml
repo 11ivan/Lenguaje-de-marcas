@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura numero="999">
+	<datos_pedido numero="731">	
+		<pago fecha="12-01-2005">Efectivo</pago>
+	</datos_pedido>	
+	
+	<datos_empresa nombre="Equipos Digitales S.L">
+		<direccion ciudad="Madrid">Av. Valladolid</direccion>
+		<cod_postal>28015</cod_postal>
+		<cif>Q-9876543</cif>
+		<tlfno fax="91-777-66-99">91-777-66-88</tlfno>
+	</datos_empresa>
+		
+	<datos_cliente nombre="Darío Bueno Gutiérrez">
+		<n_cliente>879</n_cliente>
+		<direccion_env poblacion="Madrid">Av. Oporto nº7 4ºd</direccion_env>
+		<provincia cod_postal="28043">Madrid</provincia>
+	</datos_cliente>
+
+	<datos_factura>
+		<articulos>
+			<articulo id="1">
+				<descripcion ref="MII93000F/8">MICRO PENTIUM IV 3000MHZ FB800</descripcion>
+				<cantidad precio="230 eur.">1</cantidad>
+				<importe I.V.A="16,00">266,80 eur.</importe>	
+			</articulo>
+			
+			<articulo id="2">
+				<descripcion ref="MB8QDIP4">PLACA BASE QDI P4</descripcion>
+				<cantidad precio="180 eur.">1</cantidad>
+				<importe I.V.A="16,00">208,80 eur.</importe>	
+			</articulo>
+			
+			<articulo id="3">
+				<descripcion ref="MEDD512M32">DIMM DDR 512MB 3200</descripcion>
+				<cantidad precio="40 eur.">2</cantidad>
+				<importe I.V.A="16,00">92,80 eur.</importe>	
+			</articulo>
+			
+			<articulo id="4">
+				<descripcion ref="HD250GSA7">DISCO DURO 250GB S-ATA 7200</descripcion>
+				<cantidad precio="120 eur.">4</cantidad>
+				<importe I.V.A="16,00">556,80 eur.</importe>	
+			</articulo>
+		</articulos>
+		
+		<total total factura="1125,20">
+			<base_imponible>970,00</base_imponible>
+			<cuota_iva I.V.A="16,00">155,20</cuota_iva>
+		</total>
+	</datos_factura>
+
+</factura>

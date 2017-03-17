@@ -1,0 +1,237 @@
+/*influye a todo*/
+a{
+	text-decoration:none;
+	color:grey;
+}
+a:hover{
+	color:blue;
+}
+
+/*estilos pág. principal*/
+#contenedor{ 
+	top:0px;
+	min-height:768px;
+	min-width:1024px;
+	position:absolute;
+	left:50%;
+	margin-left:-500px;
+}
+
+#barrasuperior{
+	opacity: 1;
+	max-width:1000px;
+	position:fixed;
+	top:0px;
+	left:50%;
+	margin-left:-500px;
+	height:200px;
+	z-index:1;
+}
+
+#ruizbanner{
+	width:1000px;
+	height:200px;
+}
+
+
+#barralateral{
+	z-index:2;
+	font-size:20px;
+	text-align:center;
+	opacity: 0.95;
+	position:fixed;
+	margin-left:-500px;
+	left:50%;
+	top:200px;
+	width:200px;
+	height:100%;
+	background-color:RGB(164,173,192);
+	padding-left:10px;
+	padding-top:15px;
+}
+#barralateral a{
+	text-decoration:none;
+	color:black;
+}
+#barralateral a:hover{
+	color:blue;
+}
+
+#contenido{
+	opacity: 1;
+	position:absolute;
+	width:720px;
+	left:210px;
+	top:200px;
+	background-color:white;
+	padding-right:40px;
+	padding-left:30px;
+	min-height:100%;
+	padding-top:30px;
+}
+#contenido a {
+	font-size:20px;
+	padding-left:80px;
+	bottom:10px;
+}
+
+#ruiz1 {
+	padding-left:80px;
+	padding-top:20px;
+	width:525px;
+	height:300px;	
+}
+
+#ruiz2 {
+	padding-left:80px;
+	padding-top:20px;
+	width:525px;
+	height:300px;	
+}
+
+#ruizant {
+	padding-left:80px;
+	width:525px;
+	height:300px;	
+}
+
+#ruizant1 {	
+	padding-left:80px;
+	padding-top:20px;
+	width:525px;
+	height:300px;	
+}
+
+#body1 {
+	min-width:1024px;
+	min-height:768px;
+	background-repeat:repeat;
+	background-attachment:fixed;
+	background-image:url("ruiz.jpg");
+}
+
+/*estilos de formulario*/
+#form1 {
+	margin-top:20px;
+	margin-bottom:20px;
+	font-family:liberation serif;
+	top:0px;
+	position:absolute;
+	left:50%;
+	margin-left:-250px;
+	padding:20px 20px 20px 20px;
+	width:500px;
+	background-color:navajowhite;
+
+}
+
+#contenidoform{
+	opacity: 0.8;
+	position:absolute;
+	min-width:720px;
+	left:210px;
+	top:200px;
+	background-color:white;
+	padding-right:40px;
+	padding-left:30px;
+	height:180%;
+	padding-top:30px;
+
+}
+
+#bodyform{
+	background-attachment:fixed;
+	min-width:1024px;
+	height:;
+	background-repeat:repeat;
+	background-image:url("ruiz.jpg");
+}
+
+
+.reset, .enviar{ 
+	margin-left:100px;
+}
+
+ legend {
+text-align:center;
+color:#000099;
+}
+
+
+/*Estilos Asignaturas*/
+#contenidoasignaturas{
+	opacity: 0.8;
+	position:absolute;
+	max-width:720px;
+	left:210px;
+	top:200px;
+	background-color:white;
+	padding-right:40px;
+	padding-left:30px;
+	min-height:100%;
+	padding-top:30px;
+	text-align:justify;
+}
+
+#dt{
+	text-decoration:underline;
+	font-size:20px;
+}
+
+#tituloasignatura{
+	color:blue;
+	font-size:35px;
+}
+
+/*Estilos horario*/
+
+#contenidohorario{
+	opacity: 0.8;
+	position:absolute;
+	min-width:730px;
+	left:210px;
+	top:200px;
+	background-color:white;
+	padding-right:30px;
+	padding-left:30px;
+	min-height:100%;
+	padding-top:30px;
+}
+
+caption
+{
+  font-family:times new roman;
+  font-size:25px;
+  text-align: center;
+  margin: 0px;
+  font-weight: bold;
+  padding:10px;
+}
+
+table{  
+	border-collapse: collapse;
+}
+
+tbody td
+{
+  font-family:times new roman;
+  font-weight: normal;
+  background-color: #6495ed;
+  color:#ff0;
+}
+
+td {
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border: 1px solid #000;
+  padding: .5em;
+  background-color:navajowhite;
+  width:100px;
+  text-align:center;
+  color:iceblue
+}
+th { background-color: navajowhite;
+	color: red;
+	text-align:center}
+
+	
