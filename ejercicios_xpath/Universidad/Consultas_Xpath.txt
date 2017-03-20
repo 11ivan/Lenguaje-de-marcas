@@ -80,16 +80,15 @@ Escribe las consultas XPATH necesarias para obtener los siguienters resultados a
 
 
 20. Apellidos de todos los hombres
-
+//alumno[sexo='Hombre']/apellido1 | //alumno[sexo='Hombre']/apellido2
 
 
 21. Nombre de la carrera que estudia Víctor Manuel
-
+//carrera[@id=//alumno[nombre="Víctor Manuel"]/estudios/carrera/@codigo]/nombre
 
 
 22. Nombre de las asignaturas que estudia Luisa
-
-
+//asignatura [@id=//alumno[nombre='Luisa']//asignaturas/@codigo]/nombre
 
 23. Primer apellido de los alumnos matriculados en Ingeniería del Software
 
