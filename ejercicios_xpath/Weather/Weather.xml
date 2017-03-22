@@ -1,0 +1,58 @@
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:count="1" yahoo:created="2017-03-22T11:16:27Z" yahoo:lang="es-ES">
+<results>
+<channel>
+<yweather:units xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" distance="mi" pressure="in" speed="mph" temperature="F"/>
+<title>Yahoo! Weather - Seville, Andalusia, ES</title>
+<link>
+http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-774508/
+</link>
+<description>Yahoo! Weather for Seville, Andalusia, ES</description>
+<language>en-us</language>
+<lastBuildDate>Wed, 22 Mar 2017 12:16 PM CET</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" city="Seville" country="Spain" region=" Andalusia"/>
+<yweather:wind xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" chill="50" direction="225" speed="7"/>
+<yweather:atmosphere xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" humidity="84" pressure="1016.0" rising="0" visibility="16.1"/>
+<yweather:astronomy xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" sunrise="7:24 am" sunset="7:38 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>
+http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif
+</url>
+</image>
+<item>
+<title>
+Conditions for Seville, Andalusia, ES at 10:00 AM CET
+</title>
+<geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">37.385639</geo:lat>
+<geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-5.96845</geo:long>
+<link>
+http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-774508/
+</link>
+<pubDate>Wed, 22 Mar 2017 10:00 AM CET</pubDate>
+<yweather:condition xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28" date="Wed, 22 Mar 2017 10:00 AM CET" temp="51" text="Mostly Cloudy"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28" date="22 Mar 2017" day="Wed" high="63" low="46" text="Mostly Cloudy"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="47" date="23 Mar 2017" day="Thu" high="58" low="43" text="Scattered Thunderstorms"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="12" date="24 Mar 2017" day="Fri" high="59" low="40" text="Rain"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="25 Mar 2017" day="Sat" high="62" low="40" text="Partly Cloudy"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="39" date="26 Mar 2017" day="Sun" high="64" low="42" text="Scattered Showers"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="39" date="27 Mar 2017" day="Mon" high="63" low="45" text="Scattered Showers"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="39" date="28 Mar 2017" day="Tue" high="66" low="49" text="Scattered Showers"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="29 Mar 2017" day="Wed" high="64" low="43" text="Partly Cloudy"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="30 Mar 2017" day="Thu" high="65" low="50" text="Partly Cloudy"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="31 Mar 2017" day="Fri" high="71" low="44" text="Partly Cloudy"/>
+<description>
+<![CDATA[<img src="http://l.yimg.com/a/i/us/we/52/28.gif"/> <BR /> <b>Current Conditions:</b> <BR />Mostly Cloudy <BR /> <BR /> <b>Forecast:</b> <BR /> Wed - Mostly Cloudy. High: 63Low: 46 <BR /> Thu - Scattered Thunderstorms. High: 58Low: 43 <BR /> Fri - Rain. High: 59Low: 40 <BR /> Sat - Partly Cloudy. High: 62Low: 40 <BR /> Sun - Scattered Showers. High: 64Low: 42 <BR /> <BR /> <a href="http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-774508/">Full Forecast at Yahoo! Weather</a> <BR /> <BR /> (provided by <a href="http://www.weather.com" >The Weather Channel</a>) <BR /> ]]>
+</description>
+<guid isPermaLink="false"/>
+</item>
+</channel>
+</results>
+</query>
+<!--  total: 185  -->
+<!--
+ prod_bf1_1;paas.yql;queryyahooapiscomproductionbf1;7c0bea56-0b89-11e7-a1ca-d4ae5297450a 
+-->

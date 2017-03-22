@@ -77,7 +77,7 @@
         </asignatura>
 
         <asignatura id="a02" titulacion="c01">
-            <nombre>Ingeniería del Software</nombre>
+            <nombre>Ingenieria del Software</nombre>
             <creditos_teoricos>6</creditos_teoricos>
             <creditos_practicos>1.5</creditos_practicos>
             <trimestre>2</trimestre>
@@ -112,7 +112,7 @@
         </asignatura>
 
         <asignatura id="a07" titulacion="c04">
-            <nombre>Tecnología de los Alimentos</nombre>
+            <nombre>Tecnologia de los Alimentos</nombre>
             <creditos_teoricos>1.5</creditos_teoricos>
             <creditos_practicos>7.5</creditos_practicos>
             <trimestre>2</trimestre>

@@ -91,12 +91,11 @@ Escribe las consultas XPATH necesarias para obtener los siguienters resultados a
 //asignatura [@id=//alumno[nombre='Luisa']//asignaturas/@codigo]/nombre
 
 23. Primer apellido de los alumnos matriculados en Ingeniería del Software
+//alumno/estudios/asignaturas/asignatura[@codigo=//asignatura [nombre='Ingeniería del Software']/@id]/../../../apellido1
 
 
-
-24. Nombre de las carreras que estudian los alumnos matriculados en la asignatura Tecnología de los Alimentos
-
-
+24. Nombre de las carreras que estudian los alumnos matriculados en la asignatura Tecnologia de los Alimentos
+//alumno/estudios/asignaturas/asignatura[@codigo=//asignatura [nombre='Tecnologia de los Alimentos']/@id]/../../../../../carreras/carrera/nombre
 
 25. Nombre de los alumnos matriculados en carreras que no tienen subdirector
 
