@@ -1,10 +1,22 @@
 Ejercicio XPath - Información meteorológica
 Utiliza el servicio web "Yahoo! Weather " para descargarte la información meteorológica de Sevilla 
 Escribe las expresiones XPath para obtener la siguiente información:
-Latitud de Sevilla
-Longitud de Sevilla
-Temperatura máxima prevista para hoy
-Temperatura mínima prevista para mañana
-Hora a la que se pondrá hoy el sol
-Dias soleados en los próximos diez días
-Repite el ejercicio cambiando la ciudad
+1. Latitud de Sevilla
+//*[local-name()="lat"]
+
+2. Longitud de Sevilla
+//*[local-name()="long"]
+
+3. Temperatura máxima prevista para hoy
+//*[local-name()="forecast"][@date="22 Mar 2017"]/@high
+
+4. Temperatura mínima prevista para mañana
+//*[local-name()="forecast"][@date="23 Mar 2017"]/@low
+
+5. Hora a la que se pondrá hoy el sol
+//*[local-name()="astronomy"]/@sunset
+
+6. Dias soleados en los próximos diez días
+/*[local-name()="forecast"][@text="Sunny"]
+
+7. Repite el ejercicio cambiando la ciudad

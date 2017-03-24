@@ -97,12 +97,13 @@ Escribe las consultas XPATH necesarias para obtener los siguienters resultados a
 24. Nombre de las carreras que estudian los alumnos matriculados en la asignatura Tecnologia de los Alimentos
 //alumno/estudios/asignaturas/asignatura[@codigo=//asignatura [nombre='Tecnologia de los Alimentos']/@id]/../../../../../carreras/carrera/nombre
 
-25. Nombre de los alumnos matriculados en carreras que no tienen subdirector
 
+25. Nombre de los alumnos matriculados en carreras que no tienen subdirector
+//carreras/carrera[not(subdirector)] /../../alumnos/alumno/nombre
 
 
 26. Nombre de las alumnos matriculados en asignaturas con 0 créditos prácticos y que estudien la carrera de I. Pito del Sereno
-
+//asignatura[creditos_practicos=0]/../../alumnos/alumno/nombre | //alumno
 
 
 27. Nombre de los alumnos ques estudian carreras cuyos planes son anteriores a 2007
